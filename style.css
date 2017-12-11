@@ -1,3 +1,44 @@
+.uncheck-box, .check-box, .circle .circle-dot .up-error .down-error {
+  background-image: url('../sprites/form-elements-sprite.png');
+  background-repeat: no-repeat;
+}
+
+.uncheck-box {
+  background-position: -159px -240px;
+  width: 160px;
+  height: 159px;
+}
+
+.check-box {
+  background-position: -381px -240px;
+  width: 160px;
+  height: 159px;
+}
+
+.circle{
+  background-position: -581px -242px;
+  width: 168px;
+  height: 167px;
+}
+
+.circle-dot {
+  background-position: -813px -242px;
+  width: 166px;
+  height: 166px;
+}
+
+.up-error {
+  background-position: -1036px -281px;
+  width: 76px;
+  height: 76px;
+}
+
+.down-error {
+  background-position: -1142px -280px;
+  width: 78px;
+  height: 77px;
+}
+
 .ti1 {
   margin-left: 20px;
   margin-top: 100px;
