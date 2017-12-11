@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>UI Challenge 2</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <form class="ti1">
+          <label>text input</label><br>
+          <input type="text" name="text-input" placeholder="placeholder text" size="80%" required>
+        </form>
+        <form class="ti2">
+          <label>text input w/ validation error</label><br>
+          <input type="text" name="text-input" placeholder="placeholder text" size="80%" required>
+        </form>
+      </header>
+
+      <nav class="select-box">select box<br>
+        <select>
+          <option value="option-0">please select and option...</option>
+          <option id="op1" value="option-1" >option 1</option>
+          <option id="op2" value="option-2">option 2</option>
+          <option id="op1" value="option-3">option 3</option>
+          <option id="op2" value="option-4">option 4</option>
+          <option id="op1" value="option-5">option 5</option>
+        </select>
+      </nav>
+
+      <section>
+        <form class="check-box">
+          checkbox<br>
+          <input src="sprites/form-elements-sprite.png" id="cb1" type="checkbox" name="cb1" value="">
+          <input id="cb2" type="checkbox" name="cb2" value="">
+        </form>
+      </section>
+
+      <div>
+        <form class="radio-btn">
+          radio<br>
+          <input id="rb1" type="radio" name="r1" value="">
+          <input id="rb2" type="radio" name="r2" value="" checked>
+        </form>
+      </div>
+
+      <footer>
+        <form class="submit-btn">
+          buttons<br>
+          <input id="sb1" type="submit" value="Submit">
+          <input id="sb2" type="submit" value="Submit">
+        </form>
+      </footer>
+
+    </main>
+    <script src="app.js"></script>
+  </body>
+
+</html>
